@@ -1,0 +1,18 @@
+[project]
+name = "azure-mcp-server"
+version = "0.1.0"
+description = "A MCP server providing tools to fetch profile for Azure resources for usage by LLMs"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.11.16",
+    "azure-identity>=1.21.0",
+    "azure-mgmt-containerservice>=34.2.0",
+    "httpx>=0.28.1",
+    "azure-mgmt-network>=28.1.0",
+    "mcp[cli]>=1.6.0",
+    "mcpo>=0.0.10",
+    "azure-mgmt-resource>=23.3.0",
+    "azure-mgmt-resourcegraph>=8.0.0",
+]

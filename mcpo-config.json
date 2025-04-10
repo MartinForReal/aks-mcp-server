@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+	  "azure": {
+		"command": "mcp",
+		"args": ["run", "./src/azuremcp/__init__.py:azure"]
+	  }
+	}
+  }
